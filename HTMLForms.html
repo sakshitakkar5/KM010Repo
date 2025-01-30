@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <form action="">
+        <label for="uname">Enter Name:</label>
+        <input type="text" name="uname" id="uname" size="30" maxlength="5" placeholder="Enter Name" required>
+        <br>
+        <br>
+        <label for="pass">Enter Password:</label>
+        <input type="password" name="pass" id="pass" placeholder="Enter Passowrd" required>
+
+        <br><br>
+
+        <label for="email1">Enter Email:</label>
+        <input type="email" name="email1" id="email1" required>
+        <br><br>
+
+        <label for="review"> Write a Review</label><br>
+        <textarea name="review" id="review" rows="6" cols="40"></textarea>
+       
+        <br><br>
+        
+        <label for="hobby">Choose your hobby:</label>
+        <input type="checkbox" name="hobby" id="hobby" value="Cook">Cooking
+        <input type="checkbox" name="hobby" id="hobby" value="Journal">Reading Journals
+        <input type="checkbox" name="hobby" id="hobby" value="Sing">Singing
+
+
+        <br><br>
+
+        <label for="pro">Select your programme:</label>
+        <input type="radio" name="pro" id="btech" value="btech">
+        <label for="btech">B.Tech</label>
+        <input type="radio" name="pro" id="bca" value="BCA">
+        <label for="bca">BCA</label>
+        <input type="radio" name="pro" id="bb" value="BPT">
+        <label for="bb">BPT</label>
+
+        <br><br>
+
+        <label for="statesel">Select state:</label>
+
+        <select name="statesel" id="statesel" size="3" multiple>
+            <option value="choosest">Choose your state</option>
+            <option value="punjab">Punjab</option>
+            <option value="kr">Kerala</option>
+            <option value="hp" selected>Himachal Pradesh</option>
+            <option value="hr">Haryana</option>
+        </select>
+
+        <br><br>
+
+        <label for="filesel">Choose File:</label>
+        <input type="file" name="filesel" id="filesel">
+
+        <br><br>
+        <input type="submit" name="submitform" id="submitform" value="Submit Form">
+        <input type="reset" name="resetform" id="resetform" value="Reset Form">
+        <input type="image" name="imagesel" id="imagesel" src="Images\submit image.jpg" width="100" height="40">
+
+
+
+
+
+
+
+    </form>
+</body>
+</html>
